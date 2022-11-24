@@ -1,0 +1,31 @@
+service:
+  app_id: 6ItHkiRB
+  name: testBlank
+  version: 1.0.0
+  description: ''
+  mode: org
+  logo: null
+  language: nodejs
+  language_version: 16.13.0
+  host_version: 1.0.4
+  host_sub_version: 1.0.0
+  min_system_version: 3.5.0
+  auth: null
+  config: null
+  scope: 1
+apis:
+  - type: addition
+    methods:
+      - POST
+    url: /hello
+    function: hello
+modules:
+  - id: about-blank-vcdG
+    moduleType: about:blank
+    entry: modules/about-blank-vcdG/index.html
+    icon: logo1.svg
+  - id: ones-global-banner-pqaY
+    moduleType: ones:global:banner
+    entry: modules/ones-global-banner-pqaY/index.html
+    icon: logo.svg
+
